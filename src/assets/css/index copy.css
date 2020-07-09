@@ -1,0 +1,197 @@
+@charset "UTF-8";
+@import "~antd/dist/antd.css";
+@font-face {
+  font-family: 'bottomSmartcite';  
+  src: url('../fonts/bottomSmartcite.ttf');		 
+}
+@font-face {
+  font-family: 'bottomContent';  
+  src: url('../fonts/bottomContent.ttf');		 
+}
+@font-face {
+  font-family: 'smartCiteTitle';  
+  src: url('../fonts/smartCiteTitle.ttf');		 
+}
+.layout{
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+.site-layout-content {
+  background: rgb(216, 209, 209);
+  padding: 0px;
+  height: 100%;
+  position:relative;
+  bottom:0;
+
+}
+
+.home{
+  background: #fff;
+  /* background: #ffffff; */
+  /* background:  */
+  /* height: 700px; */
+
+  /* height: auto; */
+  height: 100%;
+  /* bottom: 0px; */
+  /* padding: 0; */
+  /* position: absolute; */
+}
+.logo {
+  /* width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  /* float: left;  */
+  font-family: "smartCiteTitle";
+  color:#2dc17a;
+  font-size: 10px;
+  float: left; 
+  /* font-weight:  bold;  */
+  /* text-align: left; */
+  /* margin-left: 100px;
+  padding: 10px; */
+}
+.smartcite{
+  /* font-family: fantasy; */
+  font-family: "smartCiteTitle";
+  color:#2dc17a;
+  font-size: 100px;
+  font-weight:  bold; 
+  text-align: center;
+  padding: 100px 5px 30px 5px;
+  /* padding：50% 5% 30% 5%; */
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* padding: 0px; */
+}
+.center{
+  height:80%;
+  
+}
+
+/* 第二页 */
+.resulttitle{
+  background: #fcfcfc;
+  height:80px;
+  /* height: ; */
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.smartcite2{
+  font-family: "smartCiteTitle";
+  color:#2dc17a;
+  font-size: 50px;
+  font-weight:  bold; 
+  text-align: left;
+  margin-left: 100px;
+  padding: 10px;
+}
+.searchbutton2{
+  padding: 30px;
+  margin-left: 10%;
+}
+.result{
+  background:  #220f0f27;
+  height:640px;
+  margin-top: 0px;
+}
+.resultcontent{
+  display: flex;
+  flex-direction: row;
+}
+.resultcontent1{
+  width:30%;
+  margin-left: 150px;
+  margin-top:0.5%;
+  font-family:Microsoft YaHei;
+  font-size: 20px;
+}
+.resultcontent2{
+  width:40%;
+  margin-left: 50px;
+  margin-top:0.5%;
+  font-family:Microsoft YaHei;
+  font-size: 20px;
+  /*  */
+}
+.referencelist{
+  background: #ffffff;
+}
+.citationlist{
+
+  background: #ffffff;
+
+  height: 250px;
+  
+  overflow-y:scroll;
+  
+}
+
+/* 底部footer */
+.footer{
+  /* height:20%; */
+  background: #001628;
+  position: absolute;
+
+  bottom:0;
+}
+.bottom{
+  /* height:200px; */
+  /* margin-top: 22%; */
+  height: 18%;
+  width: 100%;
+  bottom: 0;
+  line-height:20px;
+  
+  background: #2b2a2a;
+
+  color:#fff;
+  position: fixed;
+  bottom:0;left:0;
+}
+.bottomdiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bottomdiv1{
+  width: 1000px;
+  margin-left:100px;
+  /* margin-top: 0px; */
+}
+.bottomdiv2{
+  width:400px;
+  margin-right:100px;
+  /* margin-top: 0px; */
+}
+.bottomsmartcite{
+  font-family: 'bottomSmartcite';
+  font-size: large;
+  color:#fff;
+  
+}
+.bottomcontent1{
+  font-family:  "bottomContent";;
+  margin-right:100px;
+  color:#fff;
+  margin-top: 0px;
+}
+.bottomcontent2{
+  font-family: "bottomContent";
+  margin-right:100px;
+  color:#fff
+}
+.bottomicon{
+  display: flex;
+  flex-direction: row;
+}
+.bottomicon2{
+ margin-left: 20px;
+}

@@ -1,0 +1,241 @@
+@charset "UTF-8";
+@import "~antd/dist/antd.css";
+@font-face {
+  font-family: 'bottomSmartcite';  
+  src: url('../fonts/bottomSmartcite.ttf');		 
+}
+@font-face {
+  font-family: 'bottomContent';  
+  src: url('../fonts/bottomContent.ttf');		 
+}
+@font-face {
+  font-family: 'smartCiteTitle';  
+  src: url('../fonts/AMERIKA_.ttf');		 
+}
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+.page-wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.page-content {
+  flex: 1;  
+  height:0;
+}
+
+.component-wrap {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+.component-wrap.home {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.smartcite {
+  font-family: "smartCiteTitle";
+  color:#2dc17a;
+  font-size: 100px;
+  font-weight:  bold; 
+  text-align: center;
+  padding: 0 0 30px;
+  margin-top: -78px;
+}
+.upload-wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row; 	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+  
+}
+.uploadbutton{
+  background:#1A90FF; 
+  color:#fff
+}
+.component-wrap.result {
+  background:  #220f0f27;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+  flex-direction: column;
+}
+.component-wrap.result .head-wrap {
+  background: #fcfcfc;
+  height:80px;
+  margin-top: 0px;
+  /* 适配不同浏览器 */
+  display: -webkit-box; 
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  padding-left: 3%;
+}
+.smartcite2 {
+  font-family: "smartCiteTitle";
+  color:#2dc17a;
+  font-size: 50px;
+  font-weight:  bold; 
+  text-align: left;
+}
+.upload-wrap2 {
+  margin-left: 10%;
+}
+
+/* 自适应 */
+@media screen and (max-width: 900px) {
+  .smartcite2 {
+    font-size: 30px;
+  }
+  .upload-wrap2 {
+    margin-left: 2%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .smartcite2 {
+    font-size: 20px;
+  }
+  .upload-wrap2 {
+    margin-left: 2%;
+  }
+}
+.result-content {
+  flex: 1;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+  flex-direction: row;
+  padding: 0 10%;
+  padding-top: 5%;
+}
+.result-item {
+  width:50%;
+  font-family:Microsoft YaHei;
+  font-size: 20px;
+}
+.result-item.one {
+  margin-right: 5%;
+}
+.result-item.two {
+  margin-left: 5%;
+}
+/* .result-item.two */
+.referencelist {
+  background: #ffffff;
+}
+.citationlist {
+  background: #ffffff;
+  height: 256.5px;
+  overflow-y:scroll;
+}
+@media screen and (max-width: 1200px) {
+  .result-content {
+    padding: 0 5%;
+    padding-top: 3%;
+  }
+  .result-item.one {
+    margin-right: 2.5%;
+  }
+  .result-item.two {
+    margin-left: 2.5%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .result-content {
+    padding: 0 3%;
+    padding-top: 2%;
+  }
+  .result-item.one {
+    margin-right: 1.5%;
+  }
+  .result-item.two {
+    margin-left: 1.5%;
+  }
+}
+.page-footer {
+  background: #001628;
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 5%;
+}
+.footer-item {
+  font-family:  "bottomContent";;
+  color:#fff;
+}
+.footer-item.one{
+  width: 65%;
+  padding-right: 10%;
+}
+.footer-item.two{
+  width:35%;
+}
+.footer-logo {
+  font-family: 'bottomSmartcite';
+  font-size: large;
+  color:#fff;
+  
+}
+.footer-icon {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
