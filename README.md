@@ -27,7 +27,7 @@ const props = {
     }
 ```
 
-Result.js问价下action处，同上：
+Result.js文件下action处，同上：
 
 ```javascript
 const file = []
