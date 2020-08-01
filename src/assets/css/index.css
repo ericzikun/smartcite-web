@@ -54,6 +54,7 @@ html, body, #root {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
+  /* home组件 不同浏览器适配有待调整 */
 }
 .smartcite {
   font-family: "smartCiteTitle";
@@ -137,7 +138,7 @@ html, body, #root {
     font-size: 30px;
   }
   .upload-wrap2 {
-    margin-left: 2%;
+    margin-right: 2%;
   }
 }
 @media screen and (max-width: 650px) {
@@ -145,7 +146,7 @@ html, body, #root {
     font-size: 20px;
   }
   .upload-wrap2 {
-    margin-left: 2%;
+    margin-right: 2%;
   }
 }
 .result-content {
@@ -182,8 +183,10 @@ html, body, #root {
 .citationlist {
   background: #ffffff;
   height: 256.5px;
+  /* height: 200px; */
   overflow-y:scroll;
 }
+/* 动态设置 宽度 */
 @media screen and (max-width: 1200px) {
   .result-content {
     padding: 0 5%;
@@ -200,6 +203,7 @@ html, body, #root {
   .result-content {
     padding: 0 3%;
     padding-top: 2%;
+    /* padding-top: 0; */
   }
   .result-item.one {
     margin-right: 1.5%;
@@ -208,14 +212,37 @@ html, body, #root {
     margin-left: 1.5%;
   }
 }
+
+/* 动态设置 高度 */
+@media screen and (max-height: 820px) {
+  .result-content {
+    padding: 0 5%;
+    padding-top: 0%;
+    /* padding-bottom: 0; */
+  }
+  .result-item.one {
+    margin-right: 1.5%;
+  }
+  .result-item.two {
+    margin-left: 1.5%;
+  }
+  .footer-logo {
+    font-family: 'bottomSmartcite';
+    font-size: large;
+    color: #fff;
+    margin-bottom: 0; 
+  }
+}
 .page-footer {
   background: #001628;
+  padding:0px;
 }
 .footer-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 0 5%;
+   
 }
 .footer-item {
   font-family:  "bottomContent";;
@@ -227,12 +254,13 @@ html, body, #root {
 }
 .footer-item.two{
   width:35%;
+
 }
 .footer-logo {
   font-family: 'bottomSmartcite';
   font-size: large;
   color:#fff;
-  
+  /* margin-bottom: 0;  */
 }
 .footer-icon {
   display: flex;

@@ -23,7 +23,7 @@ function App() {
               <Link to="/Result">Result</Link>
             </Menu.Item> */}
             <Menu.Item key="3">
-              <a href={require("./assets/test1.XML")} download>
+              <a href={require("./assets/downloadTest.zip")} download>
                 Download Test Case
               </a>
             </Menu.Item>
@@ -66,7 +66,7 @@ function App() {
               </div>
             </div>
             <div className="footer-item two">
-              <p style={{ fontSize: 20 }}>Contact Us</p>
+              <p className="footer-logo">Contact Us</p>
               <div className="footer-icon">
                 <div>
                   <MailOutlined style={{ fontSize: 70, color: "#fff" }} />

@@ -16,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "node ./deploy",
+    "deploy2": "npm run build && node ./deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,6 +36,9 @@
     ]
   },
   "devDependencies": {
-    "react-router-dom": "^5.2.0"
+    "chalk": "^4.1.0",
+    "ora": "^4.0.4",
+    "react-router-dom": "^5.2.0",
+    "scp2": "^0.5.0"
   }
 }
