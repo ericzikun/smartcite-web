@@ -23,7 +23,7 @@ function App() {
               <Link to="/Result">Result</Link>
             </Menu.Item> */}
             <Menu.Item key="3">
-              <a href={require("./assets/downloadTest.zip")} download>
+              <a href={require("./assets/test1.XML")} download>
                 Download Test Case
               </a>
             </Menu.Item>

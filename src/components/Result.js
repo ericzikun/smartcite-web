@@ -4,11 +4,11 @@ import { UploadOutlined } from "@ant-design/icons";
 import { Input } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import "../assets/css/index.css";
 import { List, Typography } from "antd";
 import { Table, Radio, Divider } from "antd";
 import { useState } from "react";
 import { useEffect } from "react";
+import "../assets/css/index.css";
 // import InfiniteScroll from 'react-infinite-scroller';
 // import testData from '../assets/jsondata/testData.json'
 // import axios from 'axios'

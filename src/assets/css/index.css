@@ -212,7 +212,10 @@ html, body, #root {
     margin-left: 1.5%;
   }
 }
-
+/* result表格左颜色 */
+/* .a {
+  color: #001628 !important;
+} */
 /* 动态设置 高度 */
 @media screen and (max-height: 820px) {
   .result-content {
