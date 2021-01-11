@@ -4,13 +4,14 @@ const SERVER_LIST = [
   {
     id: 0,
     name: 'XXX-生产环境',
-    host: '114.55.101.144',
+    host: '47.103.17.94',
     port: 22,
-    username: 'administrator',
-    password: 'ir_lab2020',
+    username: 'gcr',
+    password: 'gcr@whu',
     // path: 'C:\\samart_cite_fronted\\project_pdf2xml\\project_pdf2xml\\test_build'
     // path: '/C:/test_build'
-    path: '/C:/samart_cite_web'
+    // path: '/C:/samart_cite_web'
+    path: '/home/gcr/smartcite-web'
   },
   
 ]

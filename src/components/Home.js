@@ -74,8 +74,9 @@ const Home = ( ) => {
     const props = {
         name: 'file',//name得看接口需求，name与接口需要的name一致
         // action: '/test/upload/file',//接口路径
-        action: 'http://114.55.101.144:8080/extract',//接口路径
+        // action: 'http://114.55.101.144:8080/extract',//接口路径
         // action: '/extract',
+        action: 'http://47.103.17.94:8080/extract',
         data: {file} ,//接口需要的参数，无参数可以不写
         multiple: false,//支持多个文件
         showUploadList: true,//展示文件列表
